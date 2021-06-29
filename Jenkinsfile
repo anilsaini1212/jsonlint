@@ -45,6 +45,7 @@ spec:
             script {
               sh """
               jsonlint -q linux.json
+              ls -la
               """
               }
              }
