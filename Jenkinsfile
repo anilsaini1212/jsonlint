@@ -38,6 +38,7 @@ spec:
 """
         }
     }
+  stages {       
     stage ('SonarQube') {
       steps {
         container('ansible-molecule') {
@@ -58,4 +59,4 @@ spec:
            }      
          }
        }
-    
+     }
